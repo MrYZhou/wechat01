@@ -1,0 +1,43 @@
+.container{
+  padding: 20rpx 30rpx;
+}
+.item-group{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-group .thumbnail {
+  width: 60rpx;
+  height: 70rpx;
+  
+}
+.item-group .item-rate{
+  font-size: 28rpx;
+  color: #3c3c3c;
+}
+.item-group .item-title{
+  color: #41be57;margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.comment-title{
+  margin-top: 60rpx;
+  font-size: 40rpx;
+}
+
+
+.page-btn-group{
+  margin: 40rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-btn{
+  flex: 1;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #898989;
+  border: 1px solid #898989;
+  border-radius: 4px;
+}
+

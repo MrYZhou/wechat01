@@ -1,0 +1,43 @@
+/* 短评样式 */
+
+.comment-title{
+  font-size: 32rpx;
+  color: #b3b3b3;
+}
+ .comment-group{
+  display: flex;
+  justify-content: flex-start;
+  
+  margin: 40rpx 0;
+}
+ .comment-group .left-comment{
+
+  width:70rpx;
+  margin-right: 20rpx;
+}
+.left-comment .avator{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+.comment-group .right-comment{
+  flex: 1;
+}
+.right-comment .username-rate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.username-rate .username{
+  font-size: 36rpx;
+  margin-right: 20rpx;
+}
+.release-time{
+  color:#b3b3b3;
+  font-size: 32rpx;
+  margin: 10rpx 0;
+}
+.content{
+  font-size: 32rpx;
+  color: #353535;
+}
